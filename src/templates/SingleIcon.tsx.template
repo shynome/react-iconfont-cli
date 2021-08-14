@@ -10,7 +10,7 @@ interface Props extends Omit<SVGAttributes<SVGElement>, 'color'> {
 }
 
 const DEFAULT_STYLE: CSSProperties = {
-  display: 'block',
+  display: 'inline-block',
 };
 
 const #componentName#: FunctionComponent<Props> = ({ size, color, style: _style, ...rest }) => {
